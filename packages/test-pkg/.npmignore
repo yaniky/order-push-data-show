@@ -1,0 +1,4 @@
+tsconfig.json
+karma.conf.js
+src/*
+node_modules/*

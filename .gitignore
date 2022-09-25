@@ -1,0 +1,17 @@
+.idea
+
+node_modules/*
+package-lock.json
+yarn.lock
+yarn-error.log
+lerna-debug.log
+
+packages/*/lib
+packages/*/module
+packages/*/typing
+packages/*/package-lock.json
+packages/*/node_modules/*
+
+apps/*/dist
+apps/*/package-lock.json
+apps/*/node_modules

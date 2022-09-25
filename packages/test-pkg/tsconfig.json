@@ -1,0 +1,10 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "outDir": "./module",
+        "declarationDir": "./typing", // 定义文件输出目录
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

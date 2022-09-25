@@ -1,0 +1,17 @@
+{
+    "name": "test-pkg",
+    "version": "1.0.0",
+    "main": "lib/index.js",
+    "module": "module/index.js",
+    "types": "typing/index.d.ts",
+    "scripts": {
+        "tsc": "tsc --build",
+        "build-lib": "cross-env NODE_ENV=production LIB=test-pkg OUT_NAME=TestPkg webpack --config ../../script/webpack-lib/webpack.base.js",
+        "test-lib": "karma start"
+    },
+    "devDependencies": {},
+    "dependencies": {
+        "socket.io-client": "^4.5.2",
+        "socket.io-mock": "^1.3.2"
+    }
+}

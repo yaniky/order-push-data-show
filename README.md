@@ -1,1 +1,4 @@
-# cli
+# start
+
+- yarn install
+- yarn start

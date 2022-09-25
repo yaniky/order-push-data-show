@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "tsc": "lerna run tsc",
-    "build-lib": "lerna run build-lib"
+    "build-lib": "lerna run build-lib",
+    "start": "lerna run tsc && cd ./apps/test-app && yarn dev-app"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
